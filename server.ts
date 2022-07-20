@@ -1,6 +1,6 @@
 // an api
 import { opine } from "./deps.ts";
-import { bcrypt } from "./deps.ts";
+import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
 
 const app = opine();
 
